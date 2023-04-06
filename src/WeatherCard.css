@@ -1,0 +1,94 @@
+.mainCard {
+    display: inline-block;
+    margin-left: 37.8%;
+    margin-top: 5rem;
+    background-color: rgb(9, 50, 113);
+    color: white;
+    padding: 2rem;
+    box-shadow: 0 0 1rem rgb(30, 30, 71);
+    border-radius: 0.3rem;
+}
+
+.date {
+    padding-top: 2rem;
+    font-size: large;
+}
+
+#temp {
+    padding: 0.5rem;
+    font-size: xx-large;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    width: 15rem;
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+    box-shadow:  0 0 0.2rem rgb(0, 0, 0);
+}
+
+#wcondition {
+    margin-left: 41%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#locationName {
+    margin-top: 1rem;
+    text-align: center;
+    margin-left: 0.3rem;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    width: 15rem;
+    padding: 0.2rem;
+    box-shadow:  0 0 0.2rem rgb(0, 0, 0);
+}
+
+#locIcon {
+    margin-right: 0.5rem;
+    color: rgb(241, 7, 7);
+}
+
+#noData {
+    text-align: center;
+    font-size: xx-large;
+    margin: 6rem;
+    margin-left: 37%;
+    background-color: rgb(9, 50, 113);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 0.2rem;
+    display: inline-block;
+    box-shadow:  0 0 0.4rem rgb(0, 0, 0);
+}
+
+#space {
+    display: inline;
+    margin-left: 0.6rem;
+}
+
+#moreDetails {
+    text-align: end;
+    cursor: pointer;
+    color: white;
+}
+
+#wicon {
+    float: right;
+    margin: 0 1rem 1rem 0;
+    height: 3rem;
+}
+
+#convertUnits {
+    display: inline;
+    margin-top: 1rem;
+    margin-left: 6.4rem;
+    background-color: rgb(234, 208, 44);
+    padding: 0.6rem;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border-radius: 0.4rem;
+    font-weight: bolder;
+}
+
+

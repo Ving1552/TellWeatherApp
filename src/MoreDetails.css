@@ -1,0 +1,28 @@
+#showMore {
+    display: inline;
+    margin-top: 1rem;
+    margin-left: 3.8rem;
+    background-color: rgb(234, 208, 44);
+    padding: 0.6rem;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border-radius: 0.4rem;
+    font-weight: bold;
+}
+
+#condition {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 0.2rem;
+    justify-content: space-between;
+}
+
+#item1 {
+    background-color: rgb(8, 0, 52);
+    color: rgb(255, 255, 255);
+    border-radius: 0.2rem;
+    margin: 0.3rem;
+    box-shadow:  0 0 0.1rem rgb(254, 254, 255);
+}
