@@ -83,7 +83,8 @@ function App() {
                 }<img id="wicon" src={`http://openweathermap.org/img/w/${weather.weather[0].icon}.png`} alt="not found" /></div>
                 <div id="wcondition">{weather.weather[0].main} </div> {
                   more === true ?
-                    (<div id="condition"><div id="item1">Humidity : {weather.main.humidity} % <div id="space" /><div id="space" /></div><div id="item1">Feels Like : {
+                    (<div id="condition">
+                      <div id="item1">Humidity : {weather.main.humidity} % <div id="space" /><div id="space" /></div><div id="item1">Feels Like : {
                       units === "metric" ? Math.round(weather.main.feels_like) + " °C" : Math.round(weather.main.feels_like * (9 / 5) + 32) + " °F"
                     }</div>
                       <div id="item1">Wind speed : {Math.round(weather.wind.speed * 3.6)} km/hr</div>

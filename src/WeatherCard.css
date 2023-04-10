@@ -2,11 +2,14 @@
     display: inline-block;
     margin-left: 37.8%;
     margin-top: 5rem;
-    background-color: rgb(9, 50, 113);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 2rem;
-    box-shadow: 0 0 1rem rgb(30, 30, 71);
+    box-shadow: 0 0 3rem rgb(0, 27, 41);
     border-radius: 0.3rem;
+    font-weight: bold;
+    /* border: 10rem thin white; */
+    
 }
 
 .date {
@@ -53,8 +56,8 @@
     text-align: center;
     font-size: xx-large;
     margin: 6rem;
-    margin-left: 37%;
-    background-color: rgb(9, 50, 113);
+    margin-left: 38.4%;
+    background-color: rgb(32, 86, 166);
     color: white;
     padding: 1.5rem;
     border-radius: 0.2rem;
@@ -83,12 +86,13 @@
     display: inline;
     margin-top: 1rem;
     margin-left: 6.4rem;
-    background-color: rgb(234, 208, 44);
+    background-image: linear-gradient(rgb(42, 104, 151) 10%,rgb(4, 114, 161)) ;
+    background-repeat: no-repeat;
     padding: 0.6rem;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 0.4rem;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 
